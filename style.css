@@ -1,0 +1,163 @@
+img {
+    max-width: 100%;
+}
+
+/*    header_section css    */
+
+
+.header_section {
+    background: #111545;
+}
+.header_logo img {
+    width: 75px;
+    padding: 10px 0;
+}
+.header_menu ul {
+    margin-bottom: 0;
+    text-align: right;
+}
+.header_menu ul li {
+    display: inline-block;
+    margin-left: -5px;
+}
+.header_menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+    line-height: 68px;
+}
+
+
+/*    banner_section css    */
+
+
+.banner_section {
+    text-align: center;
+    color: #fff;
+    background: url(./intro-bg.jpg) center bottom no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner_section::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0, .5);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.banner_section h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.btn {
+    background-color: #3b7cb5;
+    color: #fff;
+}
+
+
+/*   teem_section css    */
+
+
+.teem_section {
+    background: #bbc2f1;
+}
+.teem_section h2 {
+    margin-bottom: -25px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.teem_item {
+    padding: 65px;
+}
+.teem_item img {
+    height: 270px;
+    width: 100%;
+}
+.teem_item h5 {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+
+
+/*    about_section css    */
+
+
+.about_section {
+    background-color: #c3d5e9;
+    padding: 100px 0;
+}
+.about_section h2 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 45px;
+    font-weight: 400;
+}
+.about_section p{
+    color: #656464;
+}
+
+.a_bio {
+    margin-left: 100px;
+    margin-bottom: 35px;
+}
+.a_bio h6 {
+    color: #585858;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.about_contant {
+    margin-top: 18px;
+}
+.about_contant h4 {
+    font-weight: 400;
+    font-size: 25px;
+}
+.about_contant strong {
+    font-size: 20px;
+    font-weight: 400;
+    color: #676767;
+}
+
+
+/*    contact_section css   */
+
+
+.contact_section {
+    background-color: #f5f5f5;
+}
+.contact_section h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.contact_form {
+    margin-left: 20px;
+}
+.contact_form h4 {
+    color: #5b5c65;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/*    footer_section css */
+
+
+footer {
+    background-color: #1765d0;
+}
+footer p {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
